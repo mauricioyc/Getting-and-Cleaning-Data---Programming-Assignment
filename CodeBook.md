@@ -1,15 +1,15 @@
-###Introduction
+### Introduction
 
 This code book has all the variables in the tidy group_data.txt file
 
-###Variables
+### Variables
 
-##Subject
+## Subject
 subjectID: the ID of the subject
 activity: the activity pereformed by the subject in the measure
 experiment: if the subject was on test or trial experiment
 
-##Features
+## Features
 "tBodyAcc-mean()-X" 
 "tBodyAcc-mean()-Y" 
 "tBodyAcc-mean()-Z" 
