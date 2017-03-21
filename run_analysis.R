@@ -53,4 +53,4 @@ mean_std_anames <- merge(mean_std_data,activity_labels,by = "activityID", all.x 
 ## Create a independent data file with the mean of each feature grouped by subject and activity
 by_subj_act<- group_by(mean_std_anames,subjectID,activity,experiment)
 group_data<-summarise_each(by_subj_act,funs(mean),4:83)
-write.table(group_data, "group_data.txt")
+write.table(group_data, "group_data.txt", row.name = FALSE)
